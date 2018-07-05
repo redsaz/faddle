@@ -1,0 +1,65 @@
+/* Start: Zero out everything. */
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+ul,ol {
+  list-style:none;
+}
+
+body,h1,h2,h3,h4,h5,h6,pre,code,td {
+  font-size:1em;
+  font-style:normal;
+}
+
+a img,:link img,:visited img,fieldset {
+  border:none;
+}
+/* End: Zero out everything. */
+
+body {
+  background-color:#060805;
+}
+
+div#upper {
+  background-image:url('faddle.net.background.top.jpg');
+  background-repeat:no-repeat;
+  background-position:top center;
+  width:100%;
+  height:352px;
+}
+
+div#mid {
+  background-image:url('faddle.net.background.mid.jpg');
+  background-repeat:no-repeat;
+  background-position:top center;
+  width:100%;
+  height:345px;
+  align:center;
+}
+
+div#greeting {
+  padding-top:30px;
+  padding-bottom:15px;
+  color:#b0d48d;
+  position:relative;
+  width:440px;
+  left:50%;
+  margin-left:-60px;
+}
+
+body,h1,h2,h3,h4,h5,h6,pre,code,td {
+  font-family:"Arial", "Verdana", sans;
+}
+
+h1.title, h2.title {
+  color: #ddd;
+  text-transform:uppercase;
+  font-weight:400;
+}
+
+a,:link,:visited,fieldset {
+color:#26e;
+}
